@@ -130,7 +130,18 @@ address ul li a { /*Naming it is easier at this point*/
 }
 
 /*Footer*/
+
+footer {
+    background-color: #111111;
+    padding: 40px 20px;
+}
 #footer-p{
+    position: relative;
+    margin: 0;
     text-align: center;
+    background-color: transparent;
+    color: #e7e7e7;
+    bottom: -15px;
+
 }
 
