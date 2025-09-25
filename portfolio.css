@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Header & Navigation Bar*/
+nav ul {
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+#dev-name {
+    font-size: 35px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*About Me Section*/
+img {
+    width: 350px;
+    height: 350px;
+    margin: 15px 4% 0 4%;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.about-container {
+    display: flex;
+}
+
+.section-title {
+    font-size: 35px;
+    margin-left: 3%;
+}
+
+.section-paragraph {
+    font-size: 18px;
+    margin: 15px 4% 0 4%;
+    text-align: justify;
+    line-height: 25px;
+}
+
+/*Projects Section*/
+.projects {
+    margin: 15px 5% 0 5%;
+    border: 1px;
+}
+
+.sec-paragraph {
+    margin: 15px 6% 0 6%;
+}
+
+/*Contact Me Section*/
+address ul {
+    display: flex;
+    font-size: 20px;
+    gap: 30px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 25px;
+}
+
+address ul li a { /*Naming it is easier at this point*/
+    text-decoration: none;
+}
+
+/*Footer*/
+#footer-p{
+    text-align: center;
+}
+
