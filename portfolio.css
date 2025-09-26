@@ -27,16 +27,19 @@ nav ul {
     background: none;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: #e7e7e7; /*Navigation and buttons color*/
-    background: none;
-    padding: 15px;
-    border-radius: 5px;
+nav ul li {
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /*Effect to ease the transition between colors*/
 }
 
-.nav-link:hover {
+nav ul li:hover {
     background-color: #252525;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .header-container {
@@ -84,6 +87,11 @@ nav, nav ul, nav li, nav a {
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   border-left: 4px solid #3ba99c;
+  transition: transform 0.4s ease;
+}
+
+.section-paragraph:hover {
+    transform: translateY(-4px) scale(1.05);
 }
 
 .img-box {
@@ -114,15 +122,55 @@ nav, nav ul, nav li, nav a {
 .projects {
     margin-left: 15%;
     margin-top: 25px;
+    font-size: 25px;
 }
 
 .sec-paragraph {
+    display: inline-block;
     margin: 5px 15%;
     padding: 5px 15px;
     border: 2px solid #e5e7eb;
     border-radius: 8px;
     border-left: 4px solid #3ba99c;
-    background: #f9fafb
+    background: #f9fafb;
+    font-size: 24px;
+    transition: transform 0.4s ease;
+}
+
+.sec-paragraph:hover {
+    transform: translateY(-4px) scale(1.05);
+}
+
+/*Contact Me Section*/
+address ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    justify-content: center;
+}
+
+address ul li {
+    font-size: 24px;
+    margin: 30px 40px;
+    border: 2px solid #3ba99c;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /*Effect to ease the transition between colors*/
+}
+
+address ul li:hover {
+    background-color: #3ba99c;
+    transform: translateY(-2px); /*Effect to lift the button by 2px*/
+}
+
+address ul li:hover a {
+    color:#ffffff
+}
+
+address ul li a {
+    text-decoration: none;
+    color: #111111;
+    background-color: transparent;
 }
 
 /*Footer*/
